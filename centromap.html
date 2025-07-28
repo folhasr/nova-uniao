@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa da Cidade de Nova União</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo-principal">A Cidade de Nova União</h1>
+
+    <div class="game-container">
+        <img src="centromap.png" alt="Mapa do Centro" usemap="#mapa-do-centro">
+        <map name="mapa-do-centro">
+            <area shape="rect" coords="82,42,239,120" href="#" data-info-target="area1">
+            <area shape="rect" coords="780,131,977,183" href="#" data-info-target="area2">
+            <area shape="rect" coords="693,369,882,421" href="#" data-info-target="area3">
+            <area shape="rect" coords="403,659,600,685" href="centromap.html">
+            <area shape="rect" coords="66,329,235,406" href="#" data-info-target="area5">
+            <area shape="rect" coords="79,627,231,688" href="#" data-info-target="area6">
+            <area shape="rect" coords="822,646,1020,689" href="#" data-info-target="area7">
+           
+        </map>
+    </div>
+
+    <div id="descricao-jogo" class="info-screen hidden">
+        <h2>Bem-vindo à Nova União!</h2>
+        <p>Em meio a um mundo assolado por horrores, a cidade de Nova União se ergue como um farol de esperança e uma prisão de desespero. Construída sobre os sacrifícios de seus fundadores, ela é um refúgio acolhedor e um pesadelo à espera de acontecer. Seus muros, manchados de sangue de inocentes, escondem segredos obscuros, enquanto seus cidadãos lutam para sobreviver em meio a uma ameaça que cresce a cada dia. O que se segue é um guia pelas principais localidades desta cidade de contrastes, onde a salvação e a perdição caminham lado a lado. Clique em diferentes áreas do mapa para descobrir informações e segredos sobre este mundo misterioso. Cada lugar tem uma história para contar.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area1" class="info-screen hidden">
+        <h2>Minas de Carvão</h2>
+        <p>Fora dos muros da cidade, esta mina foi o berço de Nova União. Sem o minério extraído aqui, a cidade jamais teria se desenvolvido. Apesar do ambiente de trabalho pesado, o minério de Nova União é conhecido por sua qualidade. No entanto, histórias de mineiros desaparecendo ou de criaturas humanoides com olhos brilhantes rondando a área fazem com que poucos queiram trabalhar à noite nas minas.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area2" class="info-screen hidden">
+        <h2>Deserto</h2>
+        <p>Uma vasta extensão de areia e rochas, o deserto se estende além das minas de carvão. Ele é um lugar inóspito, onde poucos se atrevem a ir e menos ainda retornam. Rumores sobre um templo ancestral ou de uma criatura que espreita nas dunas são frequentes.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+     <div id="area3" class="info-screen hidden">
+        <h2>Fazenda</h2>
+        <p>A principal fonte de alimento de Nova União. A maioria das fazendas são pequenas e familiares, com plantações de milho, trigo, batatas e criação de gado. Apesar de serem fora dos muros da cidade, a proximidade faz com que os guardas da cidade façam rondas regulares para protegê-las. No entanto, o recente desaparecimento de gado e de crianças fez com que os fazendeiros ficassem ainda mais apreensivos.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+     <div id="area5" class="info-screen hidden">
+        <h2>Floresta</h2>
+        <p>A floresta próxima de Nova União é densa e escura, com árvores de folhas perenes que formam uma copa fechada, impedindo a luz solar de passar. É um lugar traiçoeiro e perigoso, onde feras selvagens se escondem e criaturas das trevas prosperam. Apesar disso, alguns caçadores e herbalistas se aventuram na mata, retornando com peles de animais e ervas raras.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+     <div id="area6" class="info-screen hidden">
+        <h2>Arena</h2>
+        <p>A arena é um lugar vibrante e emocionante, onde gladiadores se enfrentam para a diversão da plateia. Ela é uma estrutura circular, com camadas de assentos de pedra para a multidão.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+     <div id="area7" class="info-screen hidden">
+        <h2>Cemitério</h2>
+        <p>É um lugar sombrio e melancólico, cercado por um muro baixo de pedra. Dentro, as lápides são feitas de pedra e o chão é de terra. No entanto, o cemitério não aceita novos corpos. Por causa disso, os moradores da cidade têm que queimar seus mortos, e ninguém sabe por quê.</p>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <!-- Botão para voltar ao mapa principal -->
+    <div class="info-screen" style="position: static; transform: none; display: block; margin-top: 20px; background-color: transparent; border: none; box-shadow: none;">
+        <button class="back-to-main-map-btn" onclick="window.location.href='index.html'">Voltar ao Mapa Principal</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
