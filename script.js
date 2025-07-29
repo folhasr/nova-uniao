@@ -110,10 +110,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Carrega o conteúdo ao carregar a página
     loadContent();
-    });
-
+    
     // Inicializa o Image Map Resizer para ambos os mapas
     // Ele vai procurar por todas as imagens que possuem um atributo 'usemap'
-    // imageMapResize(); 
+    imageMapResize(); 
 
 });
