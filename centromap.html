@@ -12,15 +12,28 @@
     <div class="game-container">
         <img src="centromap.png" alt="Mapa do Centro" usemap="#mapa-do-centro">
         <map name="mapa-do-centro">
-            <area shape="rect" coords="82,42,239,120" href="#" data-info-target="area1">
-            <area shape="rect" coords="780,131,977,183" href="#" data-info-target="area2">
-            <area shape="rect" coords="693,369,882,421" href="#" data-info-target="area3">
-            <area shape="rect" coords="403,659,600,685" href="centromap.html">
-            <area shape="rect" coords="66,329,235,406" href="#" data-info-target="area5">
-            <area shape="rect" coords="79,627,231,688" href="#" data-info-target="area6">
-            <area shape="rect" coords="822,646,1020,689" href="#" data-info-target="area7">
+            <area shape="rect" coords="489,255,618,284" href="#" data-info-target="area1"> Prefeitura
+            <area shape="rect" coords="268,319,391,346" href="#" data-info-target="area2"> Delegacia
+            <area shape="rect" coords="793,514,906,544" href="#" data-info-target="area3"> Escola
+            <area shape="rect" coords="162,518,273,539" href="#" data-info-target="area4"> Hospital
+            <area shape="rect" coords="135,751,234,775" href="#" data-info-target="area5"> Taberna
+            <area shape="rect" coords="493,744,600,764" href="#" data-info-target="area6"> Comercio
+            <area shape="rect" coords="936,779,1027,803" href="#" data-info-target="area7"> Igreja
+            <area shape="rect" coords="485,953,607,995" href="#" data-info-target="area8"> Mapa Princial
+            <area shape="rect" coords="53,1023,125,1049" href="#" data-info-target="area9"> Arena
+            <area shape="rect" coords="48,834,124,859" href="#" data-info-target="area10"> Bairro Pobre
+            <area shape="rect" coords="538,144,564,85" href="#" data-info-target="area11"> Fazendas
+            <area shape="poly" coords="293,60,277,80,341,124,359,104" href="#" data-info-target="area12"> Minas
+            <area shape="poly" coords="765,98,846,54,857,71,780,118" href="#" data-info-target="area13"> Deserto
+            <area shape="poly" coords="30,422,49,399,55,401,131,379,141,400,63,428,64,433,34,428" href="#" data-info-target="area14"> Floresta
+            <area shape="poly" coords="965,612,1042,641,1033,668,958,635" href="#" data-info-target="area15"> Estação de trem
+            <area shape="poly" coords="919,248,1003,238,1003,266,922,275" href="#" data-info-target="area16"> Bairro Rico
+            <area shape="circle" coords="551,532,110" href="#" data-info-target="area17"> Poço
+            <area shape="rect" coords="496,668,605,722" href="#" data-info-target="area18"> Guilda
            
         </map>
+
+
     </div>
 
     <div id="descricao-jogo" class="info-screen hidden">
@@ -30,46 +43,219 @@
     </div>
 
     <div id="area1" class="info-screen hidden">
-        <h2>Minas de Carvão</h2>
-        <p>Fora dos muros da cidade, esta mina foi o berço de Nova União. Sem o minério extraído aqui, a cidade jamais teria se desenvolvido. Apesar do ambiente de trabalho pesado, o minério de Nova União é conhecido por sua qualidade. No entanto, histórias de mineiros desaparecendo ou de criaturas humanoides com olhos brilhantes rondando a área fazem com que poucos queiram trabalhar à noite nas minas.</p>
+        <h2>Prefeitura</h2>
+        <p class="editable-description" data-content-id="area1-description" contenteditable="true">Localizada no centro de Nova União, a prefeitura é uma estrutura imponente, feita de pedra e com um telhado pontiagudo. É o centro político da cidade, onde o prefeito e os outros membros do conselho governam a cidade.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area1-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
         <button class="close-btn">Fechar</button>
     </div>
 
-    <div id="area2" class="info-screen hidden">
-        <h2>Deserto</h2>
-        <p>Uma vasta extensão de areia e rochas, o deserto se estende além das minas de carvão. Ele é um lugar inóspito, onde poucos se atrevem a ir e menos ainda retornam. Rumores sobre um templo ancestral ou de uma criatura que espreita nas dunas são frequentes.</p>
+     <div id="area2" class="info-screen hidden">
+        <h2>Delegacia</h2>
+        <p class="editable-description" data-content-id="area2-description" contenteditable="true">A delegacia de Nova União é uma estrutura sólida, com grossas paredes de pedra e pequenas janelas. O lugar é um labirinto de corredores, com celas que raramente estão vazias. A prisão de Nova União está em constante vigilância, mas mesmo assim, alguns prisioneiros desaparecem.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area2-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
         <button class="close-btn">Fechar</button>
     </div>
 
-     <div id="area3" class="info-screen hidden">
-        <h2>Fazenda</h2>
-        <p>A principal fonte de alimento de Nova União. A maioria das fazendas são pequenas e familiares, com plantações de milho, trigo, batatas e criação de gado. Apesar de serem fora dos muros da cidade, a proximidade faz com que os guardas da cidade façam rondas regulares para protegê-las. No entanto, o recente desaparecimento de gado e de crianças fez com que os fazendeiros ficassem ainda mais apreensivos.</p>
+    <div id="area3" class="info-screen hidden">
+        <h2>Escola</h2>
+        <p class="editable-description" data-content-id="area3-description" contenteditable="true">A escola de Nova União é uma estrutura simples, feita de madeira, com grandes janelas para iluminar a sala de aula. Dentro, há apenas uma sala de aula e cadeiras para crianças. O professor, um velho bondoso, que adora dar aulas de história e geografia.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area3-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
         <button class="close-btn">Fechar</button>
     </div>
 
-     <div id="area5" class="info-screen hidden">
-        <h2>Floresta</h2>
-        <p>A floresta próxima de Nova União é densa e escura, com árvores de folhas perenes que formam uma copa fechada, impedindo a luz solar de passar. É um lugar traiçoeiro e perigoso, onde feras selvagens se escondem e criaturas das trevas prosperam. Apesar disso, alguns caçadores e herbalistas se aventuram na mata, retornando com peles de animais e ervas raras.</p>
+    <div id="area4" class="info-screen hidden">
+        <h2>Hospital</h2>
+        <p class="editable-description" data-content-id="area4-description" contenteditable="true">O hospital de Nova União é uma estrutura simples, feita de pedra. Ele é limpo e organizado, com camas para os pacientes e suprimentos médicos. Dentro, os pacientes não parecem se curar.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area4-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
         <button class="close-btn">Fechar</button>
     </div>
 
-     <div id="area6" class="info-screen hidden">
+    <div id="area5" class="info-screen hidden">
+        <h2>Taberna</h2>
+        <p class="editable-description" data-content-id="area5-description" contenteditable="true">O lugar mais popular de Nova União é uma estrutura de madeira com um telhado de palha, iluminada por candelabros e velas que pairam sobre as mesas. É um lugar barulhento, com música, cerveja e boa comida. A taberna é um lugar para relaxar e esquecer, mas também é onde as notícias correm mais rápido.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area5-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area6" class="info-screen hidden">
+        <h2>Comércio</h2>
+        <p class="editable-description" data-content-id="area6-description" contenteditable="true">Aqui vende as paradas</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area6-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area7" class="info-screen hidden">
+        <h2>Igreja</h2>
+        <p class="editable-description" data-content-id="area7-description" contenteditable="true">Uma estrutura de pedra robusta, com um telhado alto e pontiagudo e um vitral que retrata a ascensão de uma figura divina. Dentro, a igreja é bem iluminada, com bancos de madeira e um altar feito de mármore. É um local de refúgio e de prece, onde os fiéis buscam orientação. No entanto, o padre local, um homem de meia-idade de barba grisalha e olhos cansados, parece estar escondendo algo.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area7-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area8" class="info-screen hidden">
+        <h2>Portões da Cidade</h2>
+        <p class="editable-description" data-content-id="area8-description" contenteditable="true">Imponente e robusto, o portão de Nova União é feito de madeira de carvalho e reforçado com ferro. Ele é guardado 24 horas por dia por cavaleiros da cidade, que usam armaduras pesadas e portam alabardas afiadas. Às 23h50, os portões são fechados e só reabrem às 6h da manhã.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area8-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area9" class="info-screen hidden">
         <h2>Arena</h2>
-        <p>A arena é um lugar vibrante e emocionante, onde gladiadores se enfrentam para a diversão da plateia. Ela é uma estrutura circular, com camadas de assentos de pedra para a multidão.</p>
+        <p class="editable-description" data-content-id="area9-description" contenteditable="true">A arena é um lugar vibrante e emocionante, onde gladiadores se enfrentam para a diversão da plateia. Ela é uma estrutura circular, com camadas de assentos de pedra para a multidão.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area9-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
         <button class="close-btn">Fechar</button>
     </div>
 
-     <div id="area7" class="info-screen hidden">
-        <h2>Cemitério</h2>
-        <p>É um lugar sombrio e melancólico, cercado por um muro baixo de pedra. Dentro, as lápides são feitas de pedra e o chão é de terra. No entanto, o cemitério não aceita novos corpos. Por causa disso, os moradores da cidade têm que queimar seus mortos, e ninguém sabe por quê.</p>
+    <div id="area10" class="info-screen hidden">
+        <h2>Bairro Pobre</h2>
+        <p class="editable-description" data-content-id="area10-description" contenteditable="true">Diferente do bairro nobre, as casas do bairro pobre são pequenas, feitas de madeira e palha, com janelas minúsculas e telhados precários. As ruas são de terra batida, com lama e lixo. O ar é pesado, e a insegurança é constante. Rumores sobre a causa do constante desaparecimento de crianças na cidade sempre apontam para esse bairro, mas ninguém nunca tem certeza de nada.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area10-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
         <button class="close-btn">Fechar</button>
     </div>
 
+    <div id="area11" class="info-screen hidden">
+        <h2>Fazendas</h2>
+        <p class="editable-description" data-content-id="area11-description" contenteditable="true">A principal fonte de alimento de Nova União. A maioria das fazendas são pequenas e familiares, com plantações de milho, trigo, batatas e criação de gado. Apesar de serem fora dos muros da cidade, a proximidade faz com que os guardas da cidade façam rondas regulares para protegê-las. No entanto, o recente desaparecimento de gado e de crianças fez com que os fazendeiros ficassem ainda mais apreensivos.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area11-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area12" class="info-screen hidden">
+        <h2>Minas de Carvão</h2>
+        <p class="editable-description" data-content-id="area12-description" contenteditable="true">Fora dos muros da cidade, esta mina foi o berço de Nova União. Sem o minério extraído aqui, a cidade jamais teria se desenvolvido. Apesar do ambiente de trabalho pesado, o minério de Nova União é conhecido por sua qualidade. No entanto, histórias de mineiros desaparecendo ou de criaturas humanoides com olhos brilhantes rondando a área fazem com que poucos queiram trabalhar à noite nas minas.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area12-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area13" class="info-screen hidden">
+        <h2>Deserto</h2>
+        <p class="editable-description" data-content-id="area13-description" contenteditable="true">Uma vasta extensão de areia e rochas, o deserto se estende além das minas de carvão. Ele é um lugar inóspito, onde poucos se atrevem a ir e menos ainda retornam. Rumores sobre um templo ancestral ou de uma criatura que espreita nas dunas são frequentes.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area13-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area14" class="info-screen hidden">
+        <h2>Floresta</h2>
+        <p class="editable-description" data-content-id="area14-description" contenteditable="true">A floresta próxima de Nova União é densa e escura, com árvores de folhas perenes que formam uma copa fechada, impedindo a luz solar de passar. É um lugar traiçoeiro e perigoso, onde feras selvagens se escondem e criaturas das trevas prosperam. Apesar disso, alguns caçadores e herbalistas se aventuram na mata, retornando com peles de animais e ervas raras.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area14-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+    
+    <div id="area15" class="info-screen hidden">
+        <h2>Estação de Trem</h2>
+        <p class="editable-description" data-content-id="area15-description" contenteditable="true">A estação de Nova União fica no limite da cidade, próxima aos muros. A estrutura é simples, de madeira e tijolos, com uma única plataforma e uma linha de trem.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area15-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area16" class="info-screen hidden">
+        <h2>Bairro Nobre</h2>
+        <p class="editable-description" data-content-id="area16-description" contenteditable="true">Com casas construídas em pedra e cobertas com telhas de argila, o bairro nobre é um lugar de opulência e privilégio. As ruas são limpas, bem iluminadas, e o lugar está sempre em paz. Alguns dos moradores são comerciantes, outros são funcionários da prefeitura, mas todos guardam um segredo.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area16-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area17" class="info-screen hidden">
+        <h2>Poço Principal</h2>
+        <p class="editable-description" data-content-id="area17-description" contenteditable="true">No centro de Nova União está o poço principal, a única fonte de água potável da cidade. Localizado em uma pequena praça, o poço tem um formato circular e é protegido por um baixo muro de pedra. A água, conhecida por seu frescor e sabor, parece ser infinita, apesar da demanda da cidade.</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area17-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+
+    <div id="area18" class="info-screen hidden">
+        <h2>Guilda dos Aventureiros</h2>
+        <p class="editable-description" data-content-id="area18-description" contenteditable="true">Aqui que nós mora</p>
+        
+        <h3>Personagens Conhecidos:</h3>
+        <p class="editable-characters" data-content-id="area18-characters" contenteditable="true">Nenhum personagem conhecido listado ainda.</p>
+
+        <button class="save-btn">Salvar</button>
+        <button class="close-btn">Fechar</button>
+    </div>
+    
     <!-- Botão para voltar ao mapa principal -->
     <div class="info-screen" style="position: static; transform: none; display: block; margin-top: 20px; background-color: transparent; border: none; box-shadow: none;">
         <button class="back-to-main-map-btn" onclick="window.location.href='index.html'">Voltar ao Mapa Principal</button>
     </div>
 
+    <div id="password-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Confirmação de Senha</h3>
+            <input type="password" id="password-input" placeholder="Digite a senha">
+            <button id="confirm-password-btn">Confirmar</button>
+            <button id="cancel-password-btn">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+    
     <script src="script.js"></script>
 </body>
 </html>
